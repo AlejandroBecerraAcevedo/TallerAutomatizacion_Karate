@@ -1,4 +1,4 @@
-package org.udea.parabank;
+package org.udea.thinkingTester;
 
 import com.intuit.karate.junit5.Karate;
 
