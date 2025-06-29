@@ -15,7 +15,7 @@ Scenario: Login y crear contacto
 
   # Crear contacto
   Given path '/contacts'
-  And request ==
+  And request
     """
     {
       "firstName": "Pruebas",
