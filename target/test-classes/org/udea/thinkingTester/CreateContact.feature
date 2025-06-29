@@ -6,7 +6,7 @@ Feature: create contact to app contact
     * header Accept = 'application/json'
     * def loginResult = call read('login.feature')
     * def token = loginResult.token
-    * def email = 'user' + java.lang.System.currentTimeMillis() + '@example.com'
+    * def email = 'user' + java.lang.System.currentTimeMillis() + '@mail.com'
     * def phone = Math.floor(Math.random() * 10000000000).toString()
     * header Authorization = 'Bearer ' + token
     
