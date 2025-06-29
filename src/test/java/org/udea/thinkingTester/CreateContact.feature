@@ -9,6 +9,7 @@ Feature: create contact to app contact
     * def email = 'user' + java.lang.System.currentTimeMillis() + '@example.com'
     * def phone = Math.floor(Math.random() * 100).toString()
     * header Authorization = 'Bearer ' + token
+    
 
 Scenario: Login y crear contacto
 

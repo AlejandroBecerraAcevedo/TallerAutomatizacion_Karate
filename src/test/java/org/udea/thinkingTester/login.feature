@@ -10,6 +10,7 @@ Feature: Login to app contact
     And request {"email": "alejo@example.com","password": "alejandrobecerra"}
     When method POST
     Then status 200
+    * def token = response.token
     And match response ==
     """
     {
